@@ -1,0 +1,67 @@
+/* TypingApp.css */
+body{
+    /* background-image: url('./laptop1.png'); */
+    background-color: aquamarine ;
+}
+*{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://assets.justinmind.com/wp-content/uploads/2020/02/website-background-design-guide-768x492.png');
+  }
+  
+  .form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #202123 ;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3498db;
+  }
+  
+  .alphabet {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: wheat;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 200px;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    /* border-radius: 5px; */
+    background-color: #202123;
+    border: none;
+    border-bottom: 2px solid white;
+  }
+  
+  .key,
+  .accuracy {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
